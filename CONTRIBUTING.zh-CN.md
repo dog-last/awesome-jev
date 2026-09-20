@@ -18,3 +18,16 @@
 2. 永远不要提交 API key。`.env` 已被 gitignore，CI 会拦截误提交。
 3. 保持双语同步：每个内容页都有英文版（`*.md`）和中文版（`*.zh-CN.md`）—— 两个都改，或在 PR 中注明只改了一种语言，由维护者补齐。
 4. Cookbook 脚本必须内联声明依赖（PEP 723），并可用 `uv run` 直接运行。
+
+## 本地预览网站
+
+网站是 `docs/` 目录下的 [VitePress](https://vitepress.dev) 应用（需要 Node 20+）：
+
+```bash
+npm ci              # 安装依赖（仅首次）
+npm run docs:dev    # 开发服务器，热更新 → http://localhost:5173/awesome-jev/
+```
+
+其他命令：`npm run docs:build`（生产构建到 `docs/.vitepress/dist`，与 CI 一致）、`npm run docs:preview`（预览构建产物）。
+
+网站内容在 `docs/*.md`（英文）和 `docs/zh/*.md`（中文）—— 每个页面都必须双语存在。样式微调在 `docs/.vitepress/theme/custom.css`，导航与多语言配置在 `docs/.vitepress/config.mts`。向 `main` 推送 `docs/**` 下的改动会自动重新构建并部署 GitHub Pages。
