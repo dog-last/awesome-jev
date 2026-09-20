@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets — never commit real keys
+.env
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node (VitePress site)
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/

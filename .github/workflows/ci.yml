@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  cookbooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Cookbooks compile
+        run: python -m compileall cookbooks/
+      - name: No .env committed
+        run: |
+          if find . -name '.env' -not -path './.git/*' | grep -q .; then
+            echo 'A .env file was committed — remove it and rotate the key!'
+            exit 1
+          fi
