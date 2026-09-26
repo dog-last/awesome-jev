@@ -296,6 +296,7 @@ Focused task evals:
 
 ## Deep dives & reports
 
+- [Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem](https://arxiv.org/abs/2609.30216) — Data-driven survey of 2,170 public GitHub Jev projects, documenting rapid early growth, application domains, and decision-use patterns; repository counts are not deployment counts.
 - [HackSing/jev-report](https://github.com/HackSing/jev-report) — 52-page independent research report (中文)
 - [掘金: 发布 3 天登顶 HN，我把 Jev 的源码和黑料都扒了一遍](https://juejin.cn/post/7686669083098775562) — Vercel AI SDK source dive (中文)
 - [ic.work: TypeSafe 发布 Jev 模型](https://www.ic.work/article/typesafe-releases-jev-system-one-model) — skeptical take (中文)

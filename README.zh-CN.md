@@ -296,6 +296,7 @@ Jev 权重闭源，但社区几天内就逆向出了推理形态；真正的壁�
 
 ## 深度报告与文章
 
+- [Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem](https://arxiv.org/abs/2609.30216) —— 首个基于数据的 Jev 应用生态综述与分析：研究 2,170 个公开 GitHub 项目，记录早期快速增长、应用领域和决策用途分布；项目数不等于实际部署数。
 - [HackSing/jev-report](https://github.com/HackSing/jev-report) —— 52 页独立研究报告（中文）
 - [掘金：发布 3 天登顶 HN，我把 Jev 的源码和黑料都扒了一遍](https://juejin.cn/post/7686669083098775562) —— 扒 Vercel AI SDK 源码
 - [ic.work：TypeSafe 发布 Jev 模型](https://www.ic.work/article/typesafe-releases-jev-system-one-model) —— 质疑向分析
