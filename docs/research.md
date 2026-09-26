@@ -54,6 +54,7 @@ More: [jev-banking77-experiment](https://github.com/simonmesmith/jev-banking77-e
 | Piece | Why read it |
 |---|---|
 | [sgnt.ai — "You could have built Jev"](https://sgnt.ai/p/jev/) | Best technical explainer; reconstructs the single-token-logit recipe and cross-tabulates the reproduction results |
+| [Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem](https://arxiv.org/abs/2609.30216) | Data-driven survey of 2,170 public GitHub Jev projects, mapping early growth, application domains, and decision-use patterns; not a deployment or model-accuracy study. |
 | [HackSing/jev-report](https://github.com/HackSing/jev-report) | 52-page independent research report (中文) |
 | [mizzlelover/jev-hub](https://github.com/mizzlelover/jev-hub) | Aggregator of 714 X posts (226 demo videos, 114 long-form) from launch week — the entry point to the video firehose |
 | [掘金：发布 3 天登顶 HN，我把 Jev 的源码和黑料都扒了一遍](https://juejin.cn/post/7686669083098775562) | Vercel AI SDK source dive (中文) |
