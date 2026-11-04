@@ -32,6 +32,7 @@ What the community is building with Jev, five days in. Stars are point-in-time (
 |---|---|---|
 | [droidrun/mobile-jev](https://github.com/droidrun/mobile-jev) | 248 | Standalone Android agent (Mobilerun): Uber ride SFO→Golden Gate in ~21 s / 9 actions |
 | [SomeshSampat2/jev-android-super](https://github.com/SomeshSampat2/jev-android-super) | 0 | On-device Kotlin/Compose agent; "open YouTube and subscribe to MrBeast" in 17 steps / ~32 s, ships an APK |
+| [Allenwang0730/HabitatEngine](https://github.com/Allenwang0730/HabitatEngine) | 2 | On-device Kotlin agent + phone MCP server: DeepSeek plans, Jev (or DeepSeek) picks each step from code-built accessibility candidates, code checks the end state; Chinese-goal real-device eval, 12 tasks: with planner 12/12 for both executors, without 9/12 (Jev) and 11/12 (DeepSeek) (vivo/Android 16, 2026-10-16, [method & raw data](https://github.com/Allenwang0730/HabitatEngine/blob/main/docs/EVAL.md)) |
 | [antiyro/jevdroid](https://github.com/antiyro/jevdroid) | 3 | Typed Python framework for Android over ADB; Jev reads the accessibility tree, 314 ms median decision latency |
 | [gokulnair2001/Convoy](https://github.com/gokulnair2001/Convoy) | 2 | Semantic E2E testing for iOS/Android/web: YAML natural-language steps, Jev matches intent → control |
 | [jaewgwon/jevis](https://github.com/jaewgwon/jevis) | 1 | Dart package on Flutter `integration_test`: describe a goal, Jev picks the next action |

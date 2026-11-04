@@ -32,6 +32,7 @@
 |---|---|---|
 | [droidrun/mobile-jev](https://github.com/droidrun/mobile-jev) | 248 | 独立 Android 智能体（Mobilerun）：Uber 打车 SFO→金门大桥约 21 秒 / 9 步 |
 | [SomeshSampat2/jev-android-super](https://github.com/SomeshSampat2/jev-android-super) | 0 | 端侧 Kotlin/Compose 智能体；"打开 YouTube 订阅 MrBeast"17 步约 32 秒，附 APK |
+| [Allenwang0730/HabitatEngine](https://github.com/Allenwang0730/HabitatEngine) | 2 | 端侧 Kotlin 智能体 + 手机 MCP 服务：DeepSeek 拆步骤，Jev（或 DeepSeek）每步从代码生成的无障碍候选里选动作，代码核对结果；中文目标真机评测 12 项任务，有规划时两种执行器都是 12/12，无规划 Jev 9/12、DeepSeek 11/12（vivo / Android 16，2026-10-16，[方法与原始数据](https://github.com/Allenwang0730/HabitatEngine/blob/main/docs/EVAL.md)） |
 | [antiyro/jevdroid](https://github.com/antiyro/jevdroid) | 3 | 基于 ADB 的类型化 Python 安卓控制框架；Jev 读无障碍树，决策中位延迟 314ms |
 | [gokulnair2001/Convoy](https://github.com/gokulnair2001/Convoy) | 2 | iOS/Android/Web 语义化端到端测试：YAML 自然语言步骤，Jev 匹配意图→控件 |
 | [jaewgwon/jevis](https://github.com/jaewgwon/jevis) | 1 | 基于 Flutter `integration_test` 的 Dart 包：描述目标，Jev 选下一步动作 |
